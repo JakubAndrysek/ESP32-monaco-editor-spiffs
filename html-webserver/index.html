@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>browser-amd-editor</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+    <h2>Monaco Editor Sample</h2>
+    <div style="display: flex;">
+        <div id="fileExplorer" style="width: 200px; height: 500px; border: 1px solid grey; padding: 10px; overflow-y: scroll;">
+            <!-- File list will be populated here -->
+        </div>
+        <div id="container" style="flex-grow: 1; height: 500px; border: 1px solid grey; margin-left: 20px;"></div>
+    </div>
+    <button id="saveBtn">Save</button>
+    <div>
+        <h3>JS Code</h3>
+        <pre id="jsCode"></pre>
+    </div>
+
+    <script src="loader.min.js"></script>
+    <script src="typescript.min.js"></script>
+    <script src="editor.js"></script>
+</body>
+
+</html>
